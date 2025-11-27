@@ -1,0 +1,78 @@
+const MovieData = [
+  {
+    id: 1,
+    title: "Inception",
+    description: "A mind-bending thriller about dream invasion.",
+    Image: "https://m.media-amazon.com/images/I/51s+0bX6HkL._AC_SY445_.jpg",
+    director: "Christopher Nolan",
+    year: 2010,
+    genre: "Science Fiction",
+  },
+  {
+    id: 2,
+    title: "The Godfather",
+    description: "A mind-bending thriller about dream invasion.",
+    Image: "https://m.media-amazon.com/images/I/41+eK8zBwQL._AC_SY445_.jpg",
+    director: "Francis Ford Coppola",
+    year: 1972,
+    genre: "Crime",
+  },
+  {
+    id: 3,
+    title: "Pulp Fiction",
+    director: "Quentin Tarantino",
+    year: 1994,
+    genre: "Crime",
+  },
+  {
+    id: 4,
+    title: "The Shawshank Redemption",
+    director: "Frank Darabont",
+    year: 1994,
+    genre: "Drama",
+  },
+  {
+    id: 5,
+    title: "The Dark Knight",
+    director: "Christopher Nolan",
+    year: 2008,
+    genre: "Action",
+  },
+  {
+    id: 6,
+    title: "Forrest Gump",
+    director: "Robert Zemeckis",
+    year: 1994,
+    genre: "Drama",
+  },
+  {
+    id: 7,
+    title: "The Matrix",
+    director: "The Wachowskis",
+    year: 1999,
+    genre: "Science Fiction",
+  },
+  {
+    id: 8,
+    title: "Fight Club",
+    director: "David Fincher",
+    year: 1999,
+    genre: "Drama",
+  },
+  {
+    id: 9,
+    title: "Interstellar",
+    director: "Christopher Nolan",
+    year: 2014,
+    genre: "Science Fiction",
+  },
+  {
+    id: 10,
+    title: "The Lord of the Rings: The Return of the King",
+    director: "Peter Jackson",
+    year: 2003,
+    genre: "Fantasy",
+  },
+];
+
+export default MovieData;
