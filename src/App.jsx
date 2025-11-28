@@ -3,11 +3,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Pages/Home";
 import Movies from "./Pages/Movies";
-import DashBoard from "./Pages/DashBoard";
-import Profile from "./Pages/Profile";
+// import Profile from "./Pages/Profile";
+// import Settings from "./Pages/Settings";
 import User from "./Pages/User";
 import PageNotFound from "./Pages/PageNotFound";
-import Settings from "./Pages/Settings";
 
 function App() {
   return (
@@ -18,10 +17,10 @@ function App() {
         <Route path="/movies" element={<Movies />} />
 
         {/* Nested Routes */}
-        <Route path="/dashboard" element={<DashBoard />}>
+        {/* <Route path="/dashboard" element={<DashBoard />}>
           <Route path="profile" element={<Profile />} />
           <Route path="settings" element={<Settings />} />
-        </Route>
+        </Route> */}
 
         <Route path="*" element={<PageNotFound />} />
       </Routes>

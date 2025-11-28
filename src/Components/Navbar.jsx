@@ -4,11 +4,16 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <nav className="p-4 flex gap-4 justify-center text-white mx-80 mt-4 rounded-lg">
-        <Link to="/">Home</Link>
-        <Link to="/movies">Movies</Link>
-        <Link to="/dashboard">Dashboard</Link>
-        <Link to="/profile">Profile</Link>
+      <nav className="p-4 flex gap-4 justify-center text-white mx-80 mt-4 rounded-lg ">
+        <button className="hover:shadow-3xl hover:text-cyan-400 transition duration-300">
+          <Link to="/">Home</Link>
+        </button>
+        <button className="hover:shadow-3xl hover:text-cyan-400 transition duration-300">
+          <Link to="/movies">Movies</Link>
+        </button>
+        <button className="hover:shadow-3xl hover:text-cyan-400 transition duration-300">
+          <Link to="/profile">Profile</Link>
+        </button>
       </nav>
     </div>
   );
